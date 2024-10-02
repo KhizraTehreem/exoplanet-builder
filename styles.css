@@ -1,0 +1,92 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font for a kid-friendly look */
+    background: url('https://static.vecteezy.com/system/resources/previews/010/617/150/original/illustration-graphic-background-of-space-adventure-with-copyspace-area-suitable-for-children-book-etc-free-vector.jpg') no-repeat center center fixed; /* Lively galaxy background */
+    background-size: cover;
+    color: #333; /* Dark text for better readability */
+    text-align: center;
+    padding: 20px; /* Add some padding to prevent text from touching the edges */
+}
+
+.game-container {
+    margin: 50px auto;
+    padding: 30px; /* More padding for a spacious feel */
+    max-width: 600px;
+    background-color: rgba(135, 203, 210, 0.671); /* Brighter background for better visibility */
+    border-radius: 15px; /* More rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+}
+
+h1{
+    color: #5703b7; /* Playful pink color */
+    margin: 10px 0; /* Added margin for spacing */
+    font-size: 2.5em; /* Larger font size for headings */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Subtle text shadow for depth */
+}
+h2 {
+    color: #ff6b81; /* Playful pink color */
+    margin: 10px 0; /* Added margin for spacing */
+    font-size: 2.5em; /* Larger font size for headings */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Subtle text shadow for depth */
+}
+
+button {
+    padding: 15px 25px; /* More padding for larger buttons */
+    margin: 10px;
+    border: none;
+    border-radius: 10px; /* More rounded corners */
+    background-color: #ff6b81; /* Bright button color */
+    color: #fff; /* White text */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 1.2em; /* Slightly larger font */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Button shadow */
+}
+
+button:hover {
+    background-color: #a46495; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly increase button size on hover */
+}
+
+/* Alert styles */
+.custom-alert {
+    background-color: rgba(179, 131, 183, 0.9);
+    border: 2px solid #5403ce; /* Matching border color */
+    border-radius: 15px;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+}
+
+.custom-alert h2 {
+    margin: 0; /* Remove margin for alert title */
+    color: #290f8e; /* Alert title color */
+}
+
+/* Decorative elements */
+.star {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url('https://example.com/star.png') no-repeat center; /* Replace with your star image URL */
+    background-size: contain;
+    animation: twinkle 1s infinite alternate;
+}
+
+@keyframes twinkle {
+    0% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+/* Additional style for children's content */
+p {
+    font-size: 1.2em; /* Larger text for readability */
+    color: #333; /* Darker text color for contrast */
+    margin: 15px 0; /* Spacing between paragraphs */
+}

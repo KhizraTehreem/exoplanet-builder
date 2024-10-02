@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exoplanet Ecosystem Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Exoplanet Ecosystem Builder</h1>
+        <div id="planet-selection">
+            <h2>Select Your Planet</h2>
+            <button onclick="selectPlanet('Rocky')">Rocky Planet</button>
+            <button onclick="selectPlanet('Water World')">Water World</button>
+            <button onclick="selectPlanet('Gas Giant')">Gas Giant</button>
+        </div>
+        <div id="ecosystem-setup" style="display:none;">
+            <h2>Build Your Ecosystem</h2>
+            <div id="flora-selection"></div>
+            <div id="fauna-selection"></div>
+            <button id="simulateBtn">Simulate Ecosystem</button>
+        </div>
+        <div id="ecosystem-status" style="display:none;">
+            <h2>Your Ecosystem</h2>
+            <div id="status"></div>
+            <img id="planet-image" style="max-width: 100%; height: auto; display: none;">
+            <button id="tryAgainBtn" onclick="tryAgain()">Start Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
